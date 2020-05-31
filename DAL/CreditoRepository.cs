@@ -18,7 +18,7 @@ namespace DAL
             creditos = new List<Credito>();
         }
 
-        public void Guardar(Credito credito)
+        public void Guardar(Credito credito)//por si las moscas, ultimo....
         {
             FileStream fileStream = new FileStream(ruta, FileMode.Append);
             StreamWriter writer = new StreamWriter(fileStream);
