@@ -24,7 +24,7 @@ namespace DAL
             StreamWriter writer = new StreamWriter(fileStream);
             writer.WriteLine(credito.ToString());
             writer.Close();
-            fileStream.Close();
+            fileStream.Close();///hola, 
         }
 
         public List<Credito> Consultar()
